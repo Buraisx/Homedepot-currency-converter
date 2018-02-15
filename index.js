@@ -64,8 +64,9 @@ document.addEventListener('DOMContentLoaded',function(){
 								margin: 1em;
 								width: auto;
 								display:inline-block;
-							}
-			`;
+							}`;
+
+			//Entire wrapping div
 			var wrappingDiv = document.createElement('div');
 			//append every element to shadow DOM
 			shadow.appendChild(wrappingDiv);
